@@ -11,56 +11,49 @@ import About from './common/about.component.jsx'
 import Car from './car/car.component.jsx'
 import CarDetail from './car/car-detail.component.jsx'
 
-const data = [
-    {
-        id: 1,
-        name: 'Honda Accord Crosstour',
-        year: '2010',
-        model: 'Accord Crosstour',
-        make: 'Honda',
-        media: 'http://media.ed.edmunds-media.com/honda/accord-crosstour/2010/oem/2010_honda_accord-crosstour_4dr-hatchback_ex-l_fq_oem_4_500.jpg',
-        price: '$16,811'
+var data = [{
+	    id: 1,
+	    name: 'Kaja Vijayakarunan(காட்டு பூச்சி)',
+	    age: '25',
+	    birthplace: 'SouthAfrica',
+	    contact: '07756895',
+	    media: 'https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.0-9/22228612_10155129357848693_3294256181898280190_n.jpg?oh=8d0246fe0d2e7d2d6f561592edb8fca4&oe=5B408ED7',
+	    gender: 'Male'
 
-    },
-    {
-        id: 2,
-        name: 'Mercedes-Benz AMG GT Coupe',
-        year: '2016',
-        model: 'AMG',
-        make: 'Mercedes Benz',
-        media: 'http://media.ed.edmunds-media.com/mercedes-benz/amg-gt/2016/oem/2016_mercedes-benz_amg-gt_coupe_s_fq_oem_1_717.jpg',
-        price: '$138,157'
+	}, {
+	    id: 2,
+			name: 'Sriram Jegatheesan(வெட்டுக்கிளி)',
+	    age: '22',
+	    birthplace: 'Unknown Place',
+	    contact: '077568955',
+	    media: 'https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.0-9/11755204_734241516681034_1407374884065208906_n.jpg?oh=64f6e7ed5fee5135fc5f1749ae22d8f9&oe=5B09AA13',
+	    gender: 'center'
 
-    },
-    {
-        id: 3,
-        name: 'BMW X6 SUV',
-        year: '2016',
-        model: 'X6',
-        make: 'BMW',
-        media: 'http://media.ed.edmunds-media.com/bmw/x6/2016/oem/2016_bmw_x6_4dr-suv_xdrive50i_fq_oem_1_717.jpg',
-        price: '$68,999'
-    },
-    {
-        id: 4,
-        name: 'Ford Edge SUV',
-        year: '2016',
-        model: 'Edge',
-        make: 'Ford',
-        media: 'http://media.ed.edmunds-media.com/ford/edge/2016/oem/2016_ford_edge_4dr-suv_sport_fq_oem_6_717.jpg',
-        price: '$36,275'
-    },
-    {
-        id: 5,
-        name: 'Dodge Viper Coupe',
-        year: '2017',
-        model: 'Viper',
-        make: 'Dodge',
-        media: 'http://media.ed.edmunds-media.com/dodge/viper/2017/oem/2017_dodge_viper_coupe_acr_fq_oem_3_717.jpg',
-        price: '$123,890'
-    }
-];
-
+	}, {
+	    id: 3,
+		 name: 'Srirajah Rakuvarma(செத்த எலி )',
+ 		 age: '20',
+ 		 birthplace: 'jaffna',
+ 		 contact: '077565658',
+ 		 media: 'https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.0-9/26231034_1045145105625392_913004810077407160_n.jpg?oh=b79a582bd665f4a0ba8498d4f6cf03d8&oe=5B0D807E',
+ 		 gender: 'male and sometimes behave like female'
+	}, {
+	    id: 4,
+			name: ' Kenthiran Inpanathan(வாப்பா)',
+			age: '20',
+			birthplace: 'mars',
+			contact: 'not available',
+			media: 'https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.0-9/10590516_1457180024546188_132953202279991519_n.jpg?oh=48073f732a82b2bd5445919c8b728dfb&oe=5B3DDD3C',
+			gender: 'male'
+	}, {
+	    id: 5,
+			name: 'Mario Antony(காதல் மன்னன்)',
+			age: '22',
+			birthplace: 'jaffna',
+			contact: '0776402356',
+			media: 'https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.0-9/164055_117000935037074_4396854_n.jpg?oh=36600d431d0b10a407f012ee7b1d6c27&oe=5B4089AF',
+			gender: 'male'
+}];
 render(
     <BrowserRouter>
 

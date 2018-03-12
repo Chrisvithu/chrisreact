@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Home extends Component {
     render(){
-        return (<h1>Home Page</h1>);
+        return (<h1 className="mycolor">Home Page</h1>);
     }
 }
 

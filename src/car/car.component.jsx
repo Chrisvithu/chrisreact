@@ -5,12 +5,12 @@ class Car extends Component {
     render(){
       console.log(this.props);
         // Get data from route props
-        const cars = this.props.data;
-        // Map through cars and return linked cars
-        const carNode = cars.map((car) => {
+        const blackpanther = this.props.data;
+        // Map through blackpanther and return linked blackpanther
+        const carNode = blackpanther.map((car) => {
             return (
                  <Link
-                    to={"/cars/"+car.id}
+                    to={"/blackpanther/"+car.id}
                     className="list-group-item"
                     key={car.id}>
                     {car.name}
@@ -19,7 +19,7 @@ class Car extends Component {
         });
         return (
             <div>
-                <h1>Cars page</h1>
+                <h1>blackpanther page</h1>
                 <div className="list-group">
                     {carNode}
                 </div>
